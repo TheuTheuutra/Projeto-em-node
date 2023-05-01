@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 //Conexão com o banco de dados
-const sequelize = new Sequelize('epiz_34100685_postapp','epiz_34100685','digdog2002',{
-    host: 'sql305.epizy.com',
+const sequelize = new Sequelize('postapp','root','root',{
+    host: 'localhost',
     port: '3306',
     dialect: 'mysql'
 });
